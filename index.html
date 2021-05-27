@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+    <body>
+        <div class="frame">
+            <table width="800" cellpadding="10" cellspacing="10" >
+                <caption class="shapka">Резюме для лабораторной работы 3</caption>
+                <col width="10">
+                <tr class="Name">
+                    <td >ФИО:</td>
+                    <td><p id="SecondName">Великовский Дмитрий Александрович</p></td>
+                    <td><input type="text" value="" id="txt"> <input class="btn" type="button" value="Смена ФИО" onclick="rename()"></td>
+                </tr>
+                <tr class="Group">
+                    <td>Группа:</td>
+                    <td>АДБ 18-07 <img class="image" src="Moon.jpg"></td>
+                </tr>
+            </table>
+            <table width="500" cellpadding="20" cellspacing="0" > 
+                <col width="500">
+                <tr class="AboutMe">
+                    <td>Немного о себе:</td>
+                </tr>
+                <tr>
+                    <td class="Text" id="Text"> 
+                        <input class="btn" type="button" value="Смена цвета фона" onclick="Rnd()">
+                        <p>Гениальность может оказаться лишь мимолетным шансом. Только работа и воля могут дать ей жизнь и обратить ее в славу.
+                            Источник</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <script src="script.js"> </script>
+    </body>
+</html>
